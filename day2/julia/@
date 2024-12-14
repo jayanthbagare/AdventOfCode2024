@@ -1,8 +1,0 @@
-begin
-  arr = Array{Int32,5}
-  for line in eachline("example_data")
-    l = split(line," ")
-    push!(arr,l)
-  end
-  println(arr)
-end
